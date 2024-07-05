@@ -1,0 +1,12 @@
+import discord
+from discord.ext import commands
+
+class REPLACE_WITH_COG_NAME(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
+
+         # add some commands or something i dont spoonfeed THAT much
+    @commands.command(name="example")
+
+async def setup(bot):
+    await bot.add_cog(REPLACE_WITH_COG_NAME(bot))
